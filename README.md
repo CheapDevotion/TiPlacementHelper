@@ -25,21 +25,21 @@ Install
 How to use
 ==========
 
-1. Start the node.js server by running:
+Start the node.js server by running:
 	
 	node path/to/pServer.js
 
 This should generate the "generated.js" file in the same directory as pServer.js.
 
-2. Once the server is running, include placement.js in you project.
+Once the server is running, include placement.js in you project.
 	
 	Ti.include('path/to/placement.js');
 
-3. Finally, use the "addMarker" function, passing a window as the argument.
+Finally, use the "addMarker" function, passing a window as the argument.
 	
 	addMarker(myWindow);
 
-4. Start the simulator.
+Start the simulator.
 
 Once the simulator has started, you will notice the black marker. Use this view to determine when you want to add your object.
 Once the marker is in place, double click the marker to give it a name and type. Clicking the "Generate Code" button will place the generated code in "generated.js".
