@@ -15,9 +15,9 @@ Note: This project is still in development, and features will be added as they a
 Install
 =======
 
-	1. Ensure Node.js is installed. (Click [here](https://github.com/joyent/node/wiki/Installation) for instructions).
-	2. Download the example project.
-	3. Add placement.js and pServer.js to your project.
+1. Ensure Node.js is installed. (Click [here](https://github.com/joyent/node/wiki/Installation) for instructions).
+2. Download the example project.
+3. Add placement.js and pServer.js to your project.
 	
 	 
 
@@ -25,25 +25,24 @@ Install
 How to use
 ==========
 
-1.Start the node.js server by running:
+1. Start the node.js server by running:
+	
 	node path/to/pServer.js
 
 This should generate the "generated.js" file in the same directory as pServer.js.
 
-2.Once the server is running, include placement.js in you project.
+2. Once the server is running, include placement.js in you project.
+	
 	Ti.include('path/to/placement.js');
 
-3.Finally, use the "addMarker" function, passing a window as the argument.
+3. Finally, use the "addMarker" function, passing a window as the argument.
+	
 	addMarker(myWindow);
 
-4.Start the simulator.
+4. Start the simulator.
 
 Once the simulator has started, you will notice the black marker. Use this view to determine when you want to add your object.
 Once the marker is in place, double click the marker to give it a name and type. Clicking the "Generate Code" button will place the generated code in "generated.js".
-
-
-Zip File Extraction Example
-=======
 
 
 
@@ -52,7 +51,7 @@ Zip File Extraction Example
 
 Created by Jacob Williams
 [@cheapdevotion](http://www.twitter.com/cheapdevotion)
-Source : https://github.com/Cheapdevotion/TiPlacementHelper
+Source : https://github.com/CheapDevotion/TiPlacementHelper
 
 
 
