@@ -31,7 +31,7 @@ Start the node.js server by running:
 
 This should generate the "generated.js" file in the same directory as pServer.js.
 
-Once the server is running, include placement.js in you project.
+Once the server is running, include placement.js in your project.
 	
 	Ti.include('path/to/placement.js');
 
