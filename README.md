@@ -2,7 +2,7 @@
 
 ## Description
 
-A simple Titanium script to help you place objects (Views, Labels, TextFields, etc.) and generate the Titanium code needed.
+A set of scripts designed to help with placing objects in Titanium and generating the code directly in your project.
 
 Note: This project is still in development, and features will be added as they are needed. If you would like to suggest a feature, create a GitHub issue with your request, and I will get to it when I have time.
 
@@ -50,7 +50,9 @@ Once the marker is in place, double click the marker to give it a name and type.
 
 
 Created by Jacob Williams
+
 [@cheapdevotion](http://www.twitter.com/cheapdevotion)
+
 Source : https://github.com/CheapDevotion/TiPlacementHelper
 
 
